@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gut Microbiome Diversity | Healthy vs IBD</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1120;
+            color: #f8fafc;
+            line-height: 1.6;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #0b1120, #172554);
+        }
+
+        .hero-content {
+            max-width: 900px;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 8px 16px;
+            border: 1px solid #38bdf8;
+            border-radius: 30px;
+            color: #38bdf8;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+
+        h1 {
+            font-size: 52px;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 21px;
+            color: #cbd5e1;
+            margin-bottom: 35px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            text-decoration: none;
+            padding: 14px 25px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .primary {
+            background: #38bdf8;
+            color: #0b1120;
+        }
+
+        .secondary {
+            border: 1px solid #64748b;
+            color: white;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 70px 25px;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 25px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #111827;
+            border: 1px solid #1e293b;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #38bdf8;
+        }
+
+        .card p {
+            color: #cbd5e1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            border-top: 1px solid #1e293b;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hero">
+        <div class="hero-content">
+
+            <div class="tag">
+                Machine Learning • Gut Microbiome • IBD
+            </div>
+
+            <h1>Gut Microbiome Diversity</h1>
+
+            <p class="subtitle">
+                Machine Learning-Based Analysis of Gut Microbiome
+                Diversity in Healthy and IBD Groups
+            </p>
+
+            <div class="buttons">
+
+                <a
+                    class="button primary"
+                    href="https://gut-microbiome-diversity.onrender.com"
+                    target="_blank">
+                    Launch Live Dashboard
+                </a>
+
+                <a
+                    class="button secondary"
+                    href="https://github.com/sureha412-lgtm/Gut-Microbiome-Diversity"
+                    target="_blank">
+                    View GitHub Repository
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <section>
+
+        <h2>Project Overview</h2>
+
+        <p>
+            This project applies machine learning techniques to
+            investigate gut microbiome profiles from Healthy and
+            Inflammatory Bowel Disease (IBD) groups. The workflow
+            includes preprocessing, feature analysis, machine
+            learning classification, model evaluation and biological
+            interpretation.
+        </p>
+
+    </section>
+
+
+    <section>
+
+        <h2>Machine Learning Models</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Random Forest</h3>
+                <p>
+                    Ensemble of decision trees used for nonlinear
+                    classification and feature importance analysis.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>SVM</h3>
+                <p>
+                    Support Vector Machine using an RBF kernel for
+                    classification in a high-dimensional feature space.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>XGBoost</h3>
+                <p>
+                    Gradient boosting model that builds sequential
+                    decision trees to improve predictive performance.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Neural Network</h3>
+                <p>
+                    Feed-forward neural network used to model nonlinear
+                    relationships within the microbiome data.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2>Interactive Dashboard</h2>
+
+        <p>
+            The deployed dashboard provides interactive exploration
+            of Healthy versus IBD feature distributions, model
+            evaluation, ROC-AUC analysis, confusion matrices,
+            feature importance and biological interpretation.
+        </p>
+
+        <br>
+
+        <a
+            class="button primary"
+            href="https://gut-microbiome-diversity.onrender.com"
+            target="_blank">
+            Open Dashboard →
+        </a>
+
+    </section>
+
+
+    <footer>
+        Gut Microbiome Diversity | Machine Learning-Based Analysis
+    </footer>
+
+</body>
+</html>
